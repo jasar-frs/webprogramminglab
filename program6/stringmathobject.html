@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>string method and math object</title>
+<style>
+body{
+background-color:white;
+text-align:center;
+font-family:"times new roman";
+color:blue;
+font-weight:bold;
+}
+h1{
+text-decoration:underline;
+margin-bottom:20px;
+}
+p{
+margin:5px;
+}
+</style>
+</head>
+<body>
+<h1>STRING METHOD</h1>
+<p>java script string method</p>
+<script type="text/javascript">
+var str="i am lubna";
+document.write(str+"<br>");
+ document.write("length of string is :"+str.length+"<br>");
+document.write("index of first occurrence of a in string is:"+str.indexOf("a")+"<br>");
+document.write( "index of last occurrence of  a in string is:"+str.lastIndexOf("a")+"<br>");
+document.write( "index of am in string:"+str.search("am")+"<br>");
+document.write( "index 0 to 3 print using slice:"+str.slice(0,3)+"<br>");
+document.write("to get substring of string using substring:"+str.substring(0,8)+"<br>");
+document.write( "to get substring of string using substr:"+str.substr(0,3)+"<br>");
+document.write("string to uppercase:"+str.toUpperCase()+"<br>");
+document.write( "replace lubna to aswathi in string:"+str.replace("lubna","aswathi")+"<br>");
+document.write( "use trim:"+ str.trim()+"<br>");
+document.write("new string that have character 5 on string:"+str.charAt(5)+"<br>");
+document.write( "print numeric ASCII value of character 5 on string:"+str.charCodeAt(5)+"<br>");
+</script>
+
+<h1>MATH OBJECT</h1>
+<p>math object is a build in object,contains basic mathematical functions and constants</p>
+<script>
+
+document.write( "Value of PI in radian:"+Math.PI+"<br>");
+document.write( "PI in degree:"+(Math.PI*180/Math.PI)+"<br>");
+document.write("Value of E:"+Math.E+"<br>");
+document.write("Sign of -3,print 1 if it is positive print -1 if it is negative or print 0 if it is zero:"+Math.sign(-3)+"<br>");
+document.write("Sqaureroot of a number 16 is:"+Math.sqrt(16)+"<br>");
+document.write("The 2nd power of 8 is:"+Math.pow(8,2)+"<br>");
+document.write("Round the value 6.7 is:"+Math.round(6.7)+"<br>");
+document.write("Round the value 4.6 is:"+Math.round(4.6)+"<br>");
+document.write("Ceil the value 4.4 is:"+Math.ceil(4.4)+"<br>");
+document.write("Ceil the value 4.6 is:"+Math.ceil(4.6)+"<br>");
+document.write( "floor value of the value 4.4 is:"+Math.floor(4.4)+"<br>");
+</script>
+</body>
+</html>
+
